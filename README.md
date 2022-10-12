@@ -8,7 +8,7 @@ That's it not gonna bore you all. Just contribute while enjoying.
 
 ## Contribution Guidelines
 
-![alt text] (https://drive.google.com/file/d/1wZD3ykrJD65WvFr4K-BCJNz-5Sc_0Di7/view?usp=sharing)
+![alt text](summary.png)
 
 
 Step 1: Fork the repo
