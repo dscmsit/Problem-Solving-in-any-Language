@@ -8,7 +8,8 @@ That's it not gonna bore you all. Just contribute while enjoying.
 
 ## Contribution Guidelines
 
-//![alt text](summary.png)
+
+<img src="summary.png" align="center" width="650" height="400" />
 
 Step 1: Fork the repo
 - Click on the "fork" button on the top right corner. You'll be redirected to your github account
