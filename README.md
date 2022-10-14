@@ -28,21 +28,28 @@ That's it not gonna bore you all. Just contribute while enjoying.
 </p>
 
 Step 1: Fork the repo
-- Click on the "fork" button on the top right corner. You'll be redirected to your github account
+- Click on the "Fork" button on the top right corner. You'll be redirected to your github account.
 
 Step 2: Initialize a repo
-- git init
+- Open GitBash and type the following command:
+```
+git init
+```
 
 Step 3: Clone the repo
-- Click on the green button on the top of the repo and copy the url of the repo
-- Open GitBash and type the following command:  
-       git clone <url>
+- Click on the green button ``` Code ``` on the top of the repo and copy the url of the repo
+- Type the following command:  
+```
+git clone <url>
+````
 - Paste the url in the command that you copied and press enter
 - Now, the repo is cloned in your local environment
 
 Step 4: Create a seperate branch
 - Type the following command in the GitBash
-       git checkout -b <branch-name>
+```
+git checkout -b <branch-name>
+```
 - It is recommended to keep the branch name same as your GitHub username
  
  
@@ -53,18 +60,25 @@ Step 5: Edit in your local environment
 
 Step 6: Add changes to the branch
 - Type the following command in GitBash
-       git add .
+```
+git add .
+```
 - This command will add all the changes into the branch.
 
 Step 7: Commit your changes
 - Commiting the changes ensures that now the file or code is ready from your side to be added in the project.
 - Type the following command in GitBash
-       git commit -m "<your-name> message"
+```
+git commit -m "<your-name> message"
+```
 - The message is necessary to execute the commit command.
 
 Step 8: Publish your branch to remote repo
 - Now, it's time to publish your ready branch, with updates into the remote repo that is on GitHub.
-       git push origin <your-branch-name>
+```
+git push origin <your-branch-name>
+```
+
 
 Step 9: Create Pull Request
 - When you visit the forked repository you will see compare and pull request button.
@@ -77,6 +91,6 @@ If there are any issues with your pull request, the maintainer will comment and 
 
 ### Now you are ready to go with Hacktoberfest !
  
-## Links
-- [GDSC MSIT](https://gdsc.community.dev/maharaja-surajmal-institute-of-technology-delhi/)
-- [GDSC MSIT LinkedIn]
+## Connect With Us
+[![website](https://gdsc.community.dev/maharaja-surajmal-institute-of-technology-delhi/)
+[![linkedin](https://www.linkedin.com/company/dsc-msit-delhi-google-developer-student-clubs/)
