@@ -1,3 +1,5 @@
+<img src="dsclogo.png" align="center" width="325" height="200" />
+
 
 # Programmers Hub
  
@@ -9,7 +11,8 @@ That's it not gonna bore you all. Just contribute while enjoying.
 ## Contribution Guidelines
 
 
-<img src="summary.png" align="center" width="650" height="400" />
+
+<img src="summary.png" align="center" width="325" height="200" />
 
 Step 1: Fork the repo
 - Click on the "fork" button on the top right corner. You'll be redirected to your github account
