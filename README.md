@@ -23,8 +23,8 @@ That's it not gonna bore you all. Just contribute while enjoying.
 ## Contribution Guidelines
 
 
-<p align="center">
-<img src="summary.png" align="center" width="325" height="200" />
+<p align="right">
+<img src="summary.png" align="right" width="325" height="200" />
 </p>
 
 Step 1: Fork the repo
