@@ -93,5 +93,5 @@ If there are any issues with your pull request, the maintainer will comment and 
  
 ## 🔗 Connect With Us
 [![website](https://img.shields.io/badge/DSC%20MSIT-Website-blueviolet)](https://gdsc.community.dev/maharaja-surajmal-institute-of-technology-delhi/)
-[![linkedin](https://img.shields.io/badge/LinkedIn-in-blue)](https://in.linkedin.com/company/dsc-msit-delhi-google-developer-student-clubs)
-[![discord]()](https://discord.gg/AXPNerez)
+[![linkedin](https://img.shields.io/badge/LinkedIn-blue/?style=social&logo=linkedin)](https://in.linkedin.com/company/dsc-msit-delhi-google-developer-student-clubs)
+[![discord](https://img.shields.io/badge/Discord-blue/?style=social&logo=discord)](https://discord.gg/AXPNerez)
