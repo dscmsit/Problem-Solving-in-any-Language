@@ -1,0 +1,58 @@
+class Solution {
+public:
+    int sum(TreeNode*root)
+    {
+        int a=0,b=0;
+       if(root->left==NULL&&root->right==NULL)
+       {
+           return root->val;
+       }
+        
+        if(root->left)
+        {
+            a=sum(root->left);
+        }
+        if(root->right)
+        {
+            b=sum(root->right);
+        }
+        return (a+b+root->val);
+    }
+    void tiltedTree(TreeNode*root)
+    {
+         if(root->left==NULL&&root->right==NULL)
+         {
+             root->val= 0;
+         }
+        else if(root->left!=NULL&&root->right!=NULL)
+        {
+            int a=sum(root->left);
+            int b=sum(root->right);
+            root->val=abs(a-b);
+        }
+        else if(root->left!=NULL&&root->right==NULL)
+        {
+              int a=sum(root->left);
+            root->val=abs(a);
+        }
+          else if(root->left==NULL&&root->right!=NULL)
+        {
+              int a=sum(root->right);
+            root->val=abs(a);
+        }
+        
+         if(root->left)
+        {
+            tiltedTree(root->left);
+        }
+        if(root->right)
+        {
+            tiltedTree(root->right);
+        }
+    }
+    int findTilt(TreeNode* root) {
+    if(root==NULL)return 0;
+        tiltedTree(root);
+       return sum(root);
+    }
+};
