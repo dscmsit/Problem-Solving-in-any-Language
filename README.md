@@ -19,6 +19,19 @@ This is an open-source repository to basically solve any real life problems or a
 
 That's it not gonna bore you all. Just contribute while enjoying.
 
+## Github Contribution Rules
+
+ 1. Pull requests can be submitted to any opted-in repository on GitHub or GitLab.
+
+ 2. The pull request must contain commits you made yourself.
+
+ 3. If a maintainer reports your pull request as spam, it will not be counted toward your participation in Hacktoberfest.
+
+ 4. If a maintainer reports behavior that’s not in line with the project’s code of conduct, you will be ineligible to participate.
+
+ 5. To get a shirt, you must make four approved pull requests (PRs) on opted-in projects between October 1-31 in any time zone.
+
+ 6. This year, the first 50,000 participants can earn a T-shirt.
 
 ## Contribution Guidelines
 
@@ -91,6 +104,7 @@ If there are any issues with your pull request, the maintainer will comment and 
 
 ### Now you are ready to go with Hacktoberfest !
  
-## Connect With Us
-[![website](https://gdsc.community.dev/maharaja-surajmal-institute-of-technology-delhi/)
-[![linkedin](https://www.linkedin.com/company/dsc-msit-delhi-google-developer-student-clubs/)
+## 🔗 Connect With Us
+[![website](https://img.shields.io/badge/DSC%20MSIT-Website-blueviolet)](https://gdsc.community.dev/maharaja-surajmal-institute-of-technology-delhi/)
+[![linkedin](https://img.shields.io/badge/LinkedIn-blue/?style=social&logo=linkedin)](https://in.linkedin.com/company/dsc-msit-delhi-google-developer-student-clubs)
+[![discord](https://img.shields.io/badge/Discord-blue/?style=social&logo=discord)](https://discord.gg/AXPNerez)
