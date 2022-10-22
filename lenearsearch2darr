@@ -1,0 +1,26 @@
+public class lenearsearch2darr {
+    public static void main(String[] args) {
+
+        int[][] arr = {
+
+                { 11, 22, 33 },
+                { 44, 97, 66 },
+                { 77, 88, 93, 97 }
+        };
+        // int target = 66;
+
+        System.out.println(search(arr));
+    }
+
+    static int search(int[][] arr) {
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 1; j < arr.length; j++) {
+                if (arr[i][j] > max) {
+                    max = arr[i][j];
+                }
+            }
+        }
+        return max;
+    }
+}
