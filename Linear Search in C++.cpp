@@ -14,9 +14,11 @@ int main()
 			break;
 		}
 	}
-	if (flag)
+	if (flag){
 		cout << "Your Number is Found in the Array\n";
-	else
+	}
+	else{
 		cout << "Your Number is not Found in the Array\n";
+	}
 	return 0;
 }
