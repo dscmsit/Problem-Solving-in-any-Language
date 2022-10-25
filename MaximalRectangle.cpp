@@ -8,16 +8,12 @@ class Solution
 public:
     int maximalRectangle(vector<vector<char>> &matrix)
     {
-
         if (matrix.size() == 0)
             return 0;
-
         int ans = 0;
         int m = matrix.size();    // rows
         int n = matrix[0].size(); // columns
-
-        vector<int> height(n, 0); // height
-
+   vector<int> height(n, 0); // height
         for (int i = 0; i < m; i++)
         {
             for (int j = 0; j < n; j++)
