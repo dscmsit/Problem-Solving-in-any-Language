@@ -1,0 +1,27 @@
+public class lenearsearchmaxwealth {
+
+    public static void main(String[] args) {
+
+        int[][] arr = {
+                { 2, 3, 4 },
+                { 3, 4, 5 },
+                { 4, 5, 6 }
+        };
+
+        for (int i = 0; i < arr.length; i++) {
+            int sum = 0;
+            int temp = 0;
+            for (int j = 0; j < arr.length; j++) {
+                sum = sum + arr[i][j];
+            }
+            
+            if (sum > temp) {
+
+                System.out.println(sum);
+
+            } 
+        }
+
+    }
+
+}
