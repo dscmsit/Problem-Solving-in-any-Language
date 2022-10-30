@@ -1,0 +1,16 @@
+Bangalore,Chennai,10/08/2020,20/08/2020,1,Non-veg,Dep-07:00 Arr-09:15,Dep-17:30 Arr-19:30,Administrator
+Calcutta,Chennai,02/06/2022,03/06/2022,4,Non-veg,Dep-05:45 Arr-07:30,Dep-15:15 Arr-20:15,A
+Calcutta,Chennai,02/06/2022,-One Way- ,4,Non-veg,Dep-17:00 Arr-19:00,-One Way-,A
+Calcutta,Chennai,02/06/2022,-One Way- ,3,Veg,Dep-07:15 Arr-09:30,-One Way-,A
+Calcutta,Bangalore,02/06/2022,04/06/2022,3,Veg,Dep-07:45 Arr-12:45,Dep-09:00 Arr-14:00,A
+Calcutta,Bangalore,31/05/2022,-One Way- ,3,Veg,Dep-09:30 Arr-14:30,-One Way-,A
+Calcutta,Bangalore,01/06/2022,01/06/2022,3,Veg,Dep-07:45 Arr-12:45,Dep-16:00 Arr-21:00,A
+Calcutta,Bangalore,01/06/2022,01/06/2022,3,Non-veg,Dep-16:45 Arr-21:45,Dep-18:30 Arr-23:30,A
+Calcutta,Bangalore,01/06/2022,-One Way- ,3,Non-veg,Dep-07:45 Arr-12:45,-One Way-,A
+Calcutta,Chennai,31/05/2022,01/06/2022,6,Non-veg,Dep-17:00 Arr-19:00,Dep-15:15 Arr-20:15,A
+Mumbai,Bangalore,02/06/2022,03/06/2022,10,Non-veg,Dep-04:52 Arr-07:22,Dep-21:45 Arr-00:15,A
+Calcutta,Chennai,01/06/2022,02/06/2022,5,Non-veg,Dep-07:15 Arr-09:30,Dep-18:15 Arr-23:15,A
+Chennai,Delhi,01/06/2022,02/06/2022,4,Veg,Dep-08:45 Arr-13:45,Dep-18:15 Arr-20:15,Adi
+Chennai,Delhi,01/06/2022,-One Way- ,4,Veg,Dep-15:30 Arr-20:30,-One Way-,Adi
+Calcutta,Chennai,08/06/2022,17/06/2022,3,Non-veg,Dep-05:45 Arr-07:30,Dep-15:15 Arr-20:15,A
+Calcutta,Chennai,15/06/2022,23/06/2022,6,Veg,Dep-17:00 Arr-19:00,Dep-08:30 Arr-13:30,A
