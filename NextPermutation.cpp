@@ -1,32 +1,20 @@
-class Solution {
-public:
-    void nextPermutation(vector<int>& nums) 
+void nextPermutation(vector<int>& nums) 
     {
-        int len = nums.size();
-        // if(len == 1)    return;
-        int idx1, idx2;
-        for(int i = len-2; i >= 0; i--)
+        int n=nums.size();
+        int l,r;
+        for(l=n-2;l>=0;l--)                           // find decreasing sequence
         {
-            if(nums[i] < nums[i+1])
-            {
-                idx1 = i;  //idx1 = 0
-                break;
-            }                
+            if(nums[l]<nums[l+1]) break;
         }
-        if(idx1 < 0)
-            reverse(nums.begin(), nums.end());
+        if(l<0) reverse(nums.begin(),nums.end());
         else
         {
-            for(int j = len-1; j > idx1; j--)
+            for(r=n-1;r>l;r--)                       // find rightmost successor to pivot
             {
-                if(nums[j] > nums[idx1])
-                {
-                    idx2 = j;  //idx2 = 2
-                    break;
-                }                
+                if(nums[r]>nums[l]) break;
             }
-            swap(nums[idx1],nums[idx2]);
-            reverse(nums.begin()+(idx1+1), nums.end());
-        }        
+            swap(nums[l],nums[r]);                  // swap l,r
+            
+            reverse(nums.begin()+l+1,nums.end());   // reverse from l+1 to end
+        }
     }
-};
