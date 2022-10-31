@@ -1,0 +1,24 @@
+class Solution {
+    public int longestConsecutive(int[] nums) {
+        int count = 1, res = 0;
+        HashSet<Integer> set = new HashSet<>();
+        
+        for(int i = 0; i < nums.length; i++) {
+            set.add(nums[i]);
+        }
+        
+        
+        for(int i = 0; i < nums.length; i++) {
+            
+            if(!set.contains(nums[i] - 1)) {
+                count = 1;
+               // Total lookups are 2n i.e. twice the size of the hash table.
+                while(set.contains(nums[i]+ k)) {   
+                    count++;
+                }
+            }
+            res = Math.max(res, count);
+        }
+        return res;
+    }
+}
